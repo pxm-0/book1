@@ -85,3 +85,36 @@ A structural audit document in the repo: `STRUCTURAL_AUDIT.md:`
 - Not editing existing pieces
 - Not resolving the question of the keystone essay (that's later)
 - Not committing to a final structure (that requires Dustin's sign-off)
+
+---
+
+## Decisions Made
+
+### Working Draft
+- File: `Quiet Architecture  trim.md`
+- World/Proof trimmed to ACT IV only (Chapters XXII–XXXIV + Interludes II–III). ACTs I–III cut — they're setup; ACT IV is where the tension and substance are. The cut works because the essays and letters prime the reader sufficiently.
+
+### Gela Letters — Insertion Plan
+
+**Decision:** Enter as a distinct section (Section II: Origin) between Entry and Testaments. Keep epistolary form intact — do not fold into Testaments or excerpt into QA's essay register. The form contrast (direct address, dated, personal) is load-bearing.
+
+**Placement in trim file:** Insert after line 106 (end of Section I: Entry), before line 107 (Section II: Testaments header).
+
+**Letters to include** (in order):
+1. Preface
+2. Letter 1
+3. Letter 5
+4. Letter 6 — *essential* ("from echo, into architecture" — the hinge line)
+5. Letter 7
+6. Letter 8
+7. Letter 9
+8. Letter 10 — *essential* ("not a variable but an axiom" — the Rosetta stone)
+9. Letter 14
+10. Letter 15 — *essential* ("Because I love you, you're allowed to refuse me" — dissolution of claims)
+11. Gift Letter
+
+**Letters cut:** 2, 3, 4, 12, 13 (generic, light, not load-bearing)
+**Letter to parents:** Hold — decide after Mikee Letters are placed (may work as a frame for the whole letters section or be cut)
+**Letter 11:** Hold — origin of QA's "Rejoining Existence" (Section VI). May move to Return rather than sit in Origin.
+
+### Mikee Letters — TBD (next)
