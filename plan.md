@@ -117,4 +117,52 @@ A structural audit document in the repo: `STRUCTURAL_AUDIT.md:`
 **Letter to parents:** Hold — decide after Mikee Letters are placed (may work as a frame for the whole letters section or be cut)
 **Letter 11:** Hold — origin of QA's "Rejoining Existence" (Section VI). May move to Return rather than sit in Origin.
 
-### Mikee Letters — TBD (next)
+### Mikee Letters — Insertion Plan
+
+**Decision:** Enter as a distinct section (Section III: Stress Test) between the Gela Letters (Origin) and the current Testaments. Keep all pieces — unlike Gela, almost nothing here is light or dispensable. The register is raw, fractured, unresolved — matches the emotional state. No arc toward peace; the final state is OBSIDIAN and MARBLE, the system kneeling.
+
+**Placement in working draft:** After Gela Letters (Section II), before Testaments (Section IV).
+
+**Form note:** Not a traditional letter sequence. No numbers, no dates. Pure lyric-philosophical prose poems separated by em-dashes. Closer to QA's register than the Gela Letters — some pieces could slip into Testaments without a seam.
+
+**All pieces included, in order:**
+1. "Of course it had to be you" (opening — the destabilization)
+2. "I've come to an unfortunate realization" (romanticism as restraint)
+3. "I… don't know how to love you" (the system failing to design around her)
+4. "There are stories about beings who survive" (mythology enters — "a monstrosity teaching itself not to move")
+5. "I know when I'm too close" (the inch not taken)
+6. "I rejected fate because it claimed what it did not earn" (post-rejection — "a god without jurisdiction")
+7. "I want to stop being the person I am" (rejection loosening the last thread — contains the keystone line)
+8. "She said no." (softness refusing correction)
+9. "My dearest" (archaic register — flag for review; slightly off-voice)
+10. "I said I would be dignified about this" ("Is that strength? Or is that cowardice dressed as restraint?")
+11. "Sometimes I want you without metaphor" (wanting without outcomes)
+12. "You don't even realize you do it" (physical proximity, restraint as something held)
+13. "You don't see me like that" ("You think I don't burn. That's almost funny.")
+14. "Ridiculous." (post-rejection clarity — theater in an empty room)
+15. OBSIDIAN ("I build worlds when someone is warm")
+16. MARBLE ("I have a habit of building cosmologies" — closes the section, bridges into World/Proof)
+
+**Keystone line (flag):** *"The architecture? A scaffold raised after the collapse so I could call it design."* — This is the book's central question in two lines. The missing essay has to answer this.
+
+**Duplicate-title check (REQUIRED before implementation):**
+- "I Know When I'm Too Close" exists in both QA Testaments and Mikee Letters — compare texts before inserting
+- "She Said No" exists in both QA Testaments and Mikee Letters — compare texts before inserting
+- If duplicates: remove from Testaments, keep in Mikee section
+
+---
+
+## Working Draft Structure
+
+Assembled file: `working_draft.md`
+
+| # | Section | Source |
+|---|---------|--------|
+| I | Entry | Trim file lines 1–106 |
+| II | Origin (Gela Letters) | Gela Letters.md — curated 11 pieces |
+| III | Stress Test (Mikee Letters) | Mikee Letters.md — all 16 pieces |
+| IV | Testaments | Trim file lines 107–468 *(pending duplicate check)* |
+| V | Pressure Break | Trim file lines 469–754 |
+| VI | System Reveal | Trim file lines 755–1044 |
+| VII | World/Proof | Trim file lines 1045–7503 |
+| VIII | Return | Trim file lines 7504–7613 |
