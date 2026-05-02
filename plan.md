@@ -1,0 +1,168 @@
+# Plan: Structural Audit of *Quiet Architecture of Unresolved Things*
+
+## Context
+
+QA is the working draft — not just the most recent piece, but the actual book in progress (~74k words, already structured in six internal movements). The rest of the corpus (doctrine docs, Gela Letters, Mikee Letters, Kai manuscripts) is either source material already drawn from, material that needs to fold in, or supplementary pieces.
+
+The immediate problem: neither Dustin nor the project has a clear picture of what QA currently contains at the piece level, how the other files relate to it, and what's actually missing. Before any writing or structural decisions happen, we need to see the whole thing clearly.
+
+---
+
+## What We Know About QA's Current Structure
+
+From initial exploration, QA has six internal movements:
+
+| Section | Mode | Content |
+|---------|------|---------|
+| I. Entry | Lyric-philosophical poems | Competence, Auteur of Suffering, Stickers |
+| II. Testaments | Narrative-lyric testimony | 6 named pieces (relationships, specific figures) |
+| III. Pressure Break | Essayistic prose | Terms of Self-Respect, the 20s guide, the sapiosexual essay, The Offering |
+| IV. System Reveal | Philosophical-theoretical | On Virtue, On Internal Permanence, On Coherence, On Attachment Without Collapse, On Restraint, On Recognition, On Meaning as Construction |
+| V. World/Proof | Dramatic narrative | ACT I–IV, Chapters I–XXXIV + Interludes I–III |
+| VI. Return | Lyric-narrative memoir | Rejoining Existence |
+
+**Section V is the unknown.** 34 chapters + 3 interludes across 4 acts is substantial (~40–50k words estimated). This may be the Kai material, or a different dramatic piece. Its relationship to the Kai manuscripts is unresolved.
+
+---
+
+## The Work to Do
+
+### Step 1: Deep map QA
+Read QA section by section. For each section:
+- List every named piece/chapter
+- Note mode (lyric / essay / narrative / theoretical)
+- Flag anything that seems weak, incomplete, or misplaced
+- Note approximate word count per section
+
+### Step 2: Identify what World/Proof (ACT I–IV) actually is
+Compare the opening of QA's Act I against the Manuscript of Madness opening to determine if they're the same material. This resolves the biggest structural unknown.
+
+### Step 3: Map the other corpus against QA
+For each file outside QA, answer: does this belong inside QA, before it, after it, or is it source material that's already been used?
+
+| File | Currently in QA? | Verdict |
+|------|-----------------|---------|
+| Manifesto | No (but System Reveal covers similar ground) | Preface? Movement I? |
+| CSRS, How Everything Else Works | No | Same question |
+| Canon of the Hinge, Doctrine of Internal Permanence | No | Same question |
+| Gela Letters | No | Movement II (Origin)? Fold into Testaments? |
+| Mikee Letters | No | Movement III (Stress Test)? Fold into Testaments? |
+| Kai manuscripts (Madness, Insanity, Codex) | Possibly (as World/Proof) | TBD on Step 2 |
+| All the Lives We Didn't Live | No | Placement unresolved |
+| Substack | Terms of Self-Respect is in QA | Others TBD |
+
+### Step 4: Draft a working table of contents
+A piece-level TOC for the complete book — placing everything that belongs, marking gaps, flagging structural decisions.
+
+### Step 5: Name the structural decisions that need Dustin's call
+Some things can't be resolved editorially. Name them clearly so the next session has a specific agenda.
+
+---
+
+## Critical Files
+
+- `/home/user/book1/Quiet Architecture of Unresolved Things (1).md` — primary
+- `/home/user/book1/Manuscript of Madness.md` — compare against QA World/Proof
+- `/home/user/book1/Gela Letters.md` — assess for Movement II
+- `/home/user/book1/Mikee Letters.md` — assess for Movement III
+- `/home/user/book1/MANIFESTO OF CONTINUITY AND FORM.md` — already read, assess placement
+
+---
+
+## Deliverable
+
+A structural audit document in the repo: `STRUCTURAL_AUDIT.md:`
+- What QA currently is (section-by-section map)
+- What the other files are and where they belong
+- Working table of contents
+- Named gaps and open structural decisions
+
+---
+
+## What This Session Is Not
+
+- Not writing new material
+- Not editing existing pieces
+- Not resolving the question of the keystone essay (that's later)
+- Not committing to a final structure (that requires Dustin's sign-off)
+
+---
+
+## Decisions Made
+
+### Working Draft
+- File: `Quiet Architecture  trim.md`
+- World/Proof trimmed to ACT IV only (Chapters XXII–XXXIV + Interludes II–III). ACTs I–III cut — they're setup; ACT IV is where the tension and substance are. The cut works because the essays and letters prime the reader sufficiently.
+
+### Gela Letters — Insertion Plan
+
+**Decision:** Enter as a distinct section (Section II: Origin) between Entry and Testaments. Keep epistolary form intact — do not fold into Testaments or excerpt into QA's essay register. The form contrast (direct address, dated, personal) is load-bearing.
+
+**Placement in trim file:** Insert after line 106 (end of Section I: Entry), before line 107 (Section II: Testaments header).
+
+**Letters to include** (in order):
+1. Preface
+2. Letter 1
+3. Letter 5
+4. Letter 6 — *essential* ("from echo, into architecture" — the hinge line)
+5. Letter 7
+6. Letter 8
+7. Letter 9
+8. Letter 10 — *essential* ("not a variable but an axiom" — the Rosetta stone)
+9. Letter 14
+10. Letter 15 — *essential* ("Because I love you, you're allowed to refuse me" — dissolution of claims)
+11. Gift Letter
+
+**Letters cut:** 2, 3, 4, 12, 13 (generic, light, not load-bearing)
+**Letter to parents:** Hold — decide after Mikee Letters are placed (may work as a frame for the whole letters section or be cut)
+**Letter 11:** Hold — origin of QA's "Rejoining Existence" (Section VI). May move to Return rather than sit in Origin.
+
+### Mikee Letters — Insertion Plan
+
+**Decision:** Enter as a distinct section (Section III: Stress Test) between the Gela Letters (Origin) and the current Testaments. Keep all pieces — unlike Gela, almost nothing here is light or dispensable. The register is raw, fractured, unresolved — matches the emotional state. No arc toward peace; the final state is OBSIDIAN and MARBLE, the system kneeling.
+
+**Placement in working draft:** After Gela Letters (Section II), before Testaments (Section IV).
+
+**Form note:** Not a traditional letter sequence. No numbers, no dates. Pure lyric-philosophical prose poems separated by em-dashes. Closer to QA's register than the Gela Letters — some pieces could slip into Testaments without a seam.
+
+**All pieces included, in order:**
+1. "Of course it had to be you" (opening — the destabilization)
+2. "I've come to an unfortunate realization" (romanticism as restraint)
+3. "I… don't know how to love you" (the system failing to design around her)
+4. "There are stories about beings who survive" (mythology enters — "a monstrosity teaching itself not to move")
+5. "I know when I'm too close" (the inch not taken)
+6. "I rejected fate because it claimed what it did not earn" (post-rejection — "a god without jurisdiction")
+7. "I want to stop being the person I am" (rejection loosening the last thread — contains the keystone line)
+8. "She said no." (softness refusing correction)
+9. "My dearest" (archaic register — flag for review; slightly off-voice)
+10. "I said I would be dignified about this" ("Is that strength? Or is that cowardice dressed as restraint?")
+11. "Sometimes I want you without metaphor" (wanting without outcomes)
+12. "You don't even realize you do it" (physical proximity, restraint as something held)
+13. "You don't see me like that" ("You think I don't burn. That's almost funny.")
+14. "Ridiculous." (post-rejection clarity — theater in an empty room)
+15. OBSIDIAN ("I build worlds when someone is warm")
+16. MARBLE ("I have a habit of building cosmologies" — closes the section, bridges into World/Proof)
+
+**Keystone line (flag):** *"The architecture? A scaffold raised after the collapse so I could call it design."* — This is the book's central question in two lines. The missing essay has to answer this.
+
+**Duplicate-title check (REQUIRED before implementation):**
+- "I Know When I'm Too Close" exists in both QA Testaments and Mikee Letters — compare texts before inserting
+- "She Said No" exists in both QA Testaments and Mikee Letters — compare texts before inserting
+- If duplicates: remove from Testaments, keep in Mikee section
+
+---
+
+## Working Draft Structure
+
+Assembled file: `working_draft.md`
+
+| # | Section | Source |
+|---|---------|--------|
+| I | Entry | Trim file lines 1–106 |
+| II | Origin (Gela Letters) | Gela Letters.md — curated 11 pieces |
+| III | Stress Test (Mikee Letters) | Mikee Letters.md — all 16 pieces |
+| IV | Testaments | Trim file lines 107–468 *(pending duplicate check)* |
+| V | Pressure Break | Trim file lines 469–754 |
+| VI | System Reveal | Trim file lines 755–1044 |
+| VII | World/Proof | Trim file lines 1045–7503 |
+| VIII | Return | Trim file lines 7504–7613 |
